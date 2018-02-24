@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48000" started-at="2018-02-19T04:18:12Z" finished-at="2018-02-19T04:19:00Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="47970" started-at="2018-02-19T04:18:12Z" finished-at="2018-02-19T04:19:00Z">
+      <class name="Crossbrowser.facebook">
+        <test-method status="PASS" signature="invoke(java.lang.String)[pri:0, instance:Crossbrowser.facebook@754ba872]" name="invoke" is-config="true" duration-ms="47663" started-at="2018-02-18T23:18:12Z" finished-at="2018-02-18T23:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Crossbrowser.facebook@754ba872]" name="test1" duration-ms="179" started-at="2018-02-18T23:19:00Z" finished-at="2018-02-18T23:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="FAIL" signature="close(java.lang.String)[pri:0, instance:Crossbrowser.facebook@754ba872]" name="close" is-config="true" duration-ms="0" started-at="2018-02-18T23:19:00Z" finished-at="2018-02-18T23:19:00Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method close requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method close requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Crossbrowser.facebook -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="48000" started-at="2018-02-19T04:18:12Z" finished-at="2018-02-19T04:19:00Z">
+      <class name="Crossbrowser.google">
+        <test-method status="PASS" signature="invoke(java.lang.String)[pri:0, instance:Crossbrowser.google@ff5b51f]" name="invoke" is-config="true" duration-ms="47736" started-at="2018-02-18T23:18:12Z" finished-at="2018-02-18T23:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Crossbrowser.google@ff5b51f]" name="test2" duration-ms="243" started-at="2018-02-18T23:19:00Z" finished-at="2018-02-18T23:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="FAIL" signature="close(java.lang.String)[pri:0, instance:Crossbrowser.google@ff5b51f]" name="close" is-config="true" duration-ms="0" started-at="2018-02-18T23:19:00Z" finished-at="2018-02-18T23:19:00Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method close requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method close requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Crossbrowser.google -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
